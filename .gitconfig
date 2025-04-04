@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = master
+[user]
+	email = rahulsangwan797@gmail.com
+	name = rahul-797
+[credential]
+	helper = store

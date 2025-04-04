@@ -1,0 +1,1 @@
+pidof hyprland | hyprland
