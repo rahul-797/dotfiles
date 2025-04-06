@@ -119,7 +119,7 @@
             "(.*)Visual Studio Code": "Code 󰨞",
             "(.*) - Code - OSS": "$1 󰨞",
             "(.*)Code - OSS": "Code 󰨞",
-            "(.*) — Thunar": "$1 󰉋",
+            "(.*) — Dolphin": "$1 󰉋",
             "(.*)Spotify": "Spotify 󰓇",
             "(.*)Steam": "Steam 󰓓",
             "(.*) - Discord": "$1  ",
@@ -159,7 +159,7 @@
     },
 
 "pulseaudio": {
-    "format": "{icon}",
+    "format": "{icon} {volume}",
     "rotate": 0,
     "format-muted": "婢",
     "on-click": "pavucontrol -t 3",
@@ -180,18 +180,18 @@
     }
 },
 
-// "pulseaudio#microphone": {
-//     "format": "{format_source}",
-//     "rotate": 0,
-//     "format-source": "",
-//     "format-source-muted": "",
-//     "on-click": "pavucontrol -t 4",
-//     "on-click-middle": "volumecontrol.sh -i m",
-//     "on-scroll-up": "volumecontrol.sh -i i",
-//     "on-scroll-down": "volumecontrol.sh -i d",
-//     "tooltip-format": "{format_source} {source_desc} // {source_volume}%",
-//     "scroll-step": 5
-// },
+"pulseaudio#microphone": {
+    "format": "{format_source}",
+    "rotate": 0,
+    "format-source": "",
+    "format-source-muted": "",
+    "on-click": "pavucontrol -t 4",
+    "on-click-middle": "volumecontrol.sh -i m",
+    "on-scroll-up": "volumecontrol.sh -i i",
+    "on-scroll-down": "volumecontrol.sh -i d",
+    "tooltip-format": "{format_source} {source_desc} // {source_volume}%",
+    "scroll-step": 5
+},
 
     "custom/updates": {
         "exec": "systemupdate.sh",
@@ -203,12 +203,12 @@
         "tooltip": true,
         "signal": 20,
     },
-    // "custom/keybindhint": {
-    //     "format": " ",
-    //     "tooltip-format": " Keybinds",
-    //     "rotate": 0,
-    //     "on-click": "keybinds_hint.sh"
-    // },
+    "custom/keybindhint": {
+        "format": " ",
+        "tooltip-format": " Keybinds",
+        "rotate": 0,
+        "on-click": "keybinds_hint.sh"
+    },
 
     "privacy": {
         "icon-size": 12,
