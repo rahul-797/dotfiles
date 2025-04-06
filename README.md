@@ -8,16 +8,33 @@ This configuration uses `Hyde` project as base for hyprland configuration.
 
 --------------------------------
 
-## Installation
+## Requirements
 
-Clone this repository:
+Ensure you have the following installed on your system
 
-```bash
-git clone https://github.com/rahul-797/dotfiles.git ~/dotfiles
+### Git
+
+```
+pacman -S git
 ```
 
-Run the setup script:
+### Stow
 
-```bash
-bash ~/dotfiles/setup.sh
+```
+pacman -S stow
+```
+
+## Installation
+
+First, check out the dotfiles repo in your $HOME directory using git
+
+```
+$ git clone https://github.com/rahul-797/dotfiles.git
+$ cd dotfiles
+```
+
+Use Stow to create symlinks
+
+```
+$ stow .
 ```
