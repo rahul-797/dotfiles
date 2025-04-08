@@ -9,6 +9,7 @@
 
 #  Aliases 
 export EDITOR=/usr/bin/nvim
+export PATH="~/.bin:$PATH"
 
 alias ls='eza --icons=auto --group-directories-first'
 alias l='eza -la --icons=auto --group-directories-first'
