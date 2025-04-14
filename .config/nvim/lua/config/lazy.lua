@@ -27,21 +27,6 @@ require("lazy").setup({
     { import = "plugins.ui" },
     { import = "plugins.syntax" },
     { import = "plugins.lsp" },
-    { import = "plugins.coding" },
-    {
-        "zbirenbaum/copilot.lua",
-        cmd = "Copilot",
-        event = "InsertEnter",
-        config = function()
-            require("copilot").setup({})
-        end,
-    },
-    {
-        "yetone/avante.nvim",
-        config = function()
-            require("avante").setup()
-        end,
-    },
   },
   ui = {
     border = "rounded",
