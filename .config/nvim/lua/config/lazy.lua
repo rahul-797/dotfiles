@@ -32,7 +32,7 @@ require("lazy").setup({
     border = "rounded",
   },
   -- colorscheme that will be used when installing plugins.
-  install = { colorscheme = { "gruvbox" } },
+  install = { colorscheme = { "rose-pine" } },
   -- automatically check for plugin updates
   -- checker = { enabled = true },
 })
