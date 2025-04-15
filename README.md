@@ -38,3 +38,15 @@ Use Stow to create symlinks
 ```
 $ stow .
 ```
+
+## Useful packages
+
+### File manager
+```
+$ sudo pacman -S thunar android-tools gvfs gvfs-mtp thunar-archive-plugin thunar-volman 
+```
+
+### Misc
+```
+$ sudo pacman -S bat-asus-battery-bin gnome-disk-utility lazygit mpv telegram-desktop zen-browser-bin google-chrome
+```
