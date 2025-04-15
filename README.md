@@ -48,5 +48,10 @@ $ sudo pacman -S thunar android-tools gvfs gvfs-mtp thunar-archive-plugin thunar
 
 ### Misc
 ```
-$ sudo pacman -S bat-asus-battery-bin gnome-disk-utility lazygit mpv telegram-desktop zen-browser-bin google-chrome
+$ sudo pacman -S bat-asus-battery-bin os-prober gnome-disk-utility lazygit mpv telegram-desktop zen-browser-bin google-chrome
+```
+
+## Minecraft Grub Theme
+```
+git clone https://github.com/Lxtharia/double-minegrub-menu.git && cd double-minegrub-menu-main && sudo ./install.sh
 ```
