@@ -30,7 +30,6 @@ alias ga='git add .'
 alias gc='git commit -m'
 alias gp='git push -u origin master'
 
-alias p='sudo pacman -Syu && paru'
 alias sps="sudo pacman -S --needed"
 alias spss="sudo pacman -Ss"
 alias spsi="sudo pacman -Si"
